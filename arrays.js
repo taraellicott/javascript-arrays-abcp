@@ -1,10 +1,10 @@
 chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 
-// function addElementToBeginningOfArray(arr,elem) {
-//   var spreadBeg = [elem,...arr];
-//   return spreadBeg;
-// }
+function addElementToBeginningOfArray(arr,elem) {
+  var spreadBeg = [elem,...arr];
+  return spreadBeg;
+}
 
 
 function destructivelyAddElementToBeginningOfArray(arr,elem) {
