@@ -2,8 +2,7 @@ chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 
 function addElementToBeginningOfArray(arr,elem) {
-  var spreadBeg = [elem,...arr];
-  return spreadBeg;
+  return [elem,...arr];
 }
 
 
@@ -12,9 +11,9 @@ function destructivelyAddElementToBeginningOfArray(arr,elem) {
 }
 
 
-// function addElementToEndOfArray(arr,elem) {
-//   ...arr,elem;
-// }
+function addElementToEndOfArray(arr,elem) {
+  ...arr,elem;
+}
 
 
 function destructivelyAddElementToEndOfArray(arr,elem) {
